@@ -1,0 +1,8 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Hide scrollbars */
+  background-image: url("img/metal.jpg");
+}

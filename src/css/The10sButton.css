@@ -1,0 +1,7 @@
+.The10sButton {
+  background-image: url("img/10sButton.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+}

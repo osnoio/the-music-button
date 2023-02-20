@@ -1,0 +1,102 @@
+.Decade {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  align-items: center;
+  justify-content: top;
+}
+
+.Decade-content {
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 100%;
+  height: 70vh;
+}
+
+.player-motion-wrapper {
+  /* background-color: rebeccapurple; */
+  width: 50%;
+  position: relative;
+  max-height: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="player-motion-wrapper"] {
+    width: 80%;
+  }
+}
+
+.player-container {
+  height: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  overflow: hidden;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 4px 3px 4px 3px rgba(0, 0, 0, 0.24),
+    -4px 3px 4px 3px rgba(0, 0, 0, 0.24);
+}
+
+.song-details-motion-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 60%;
+  height: 10%;
+}
+
+.Decade-title-container {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif-dance-container {
+  /* background-color: blue; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.gif-dancer {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  /* text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  font-weight: 900; */
+  /* -webkit-text-stroke: 5px red; */
+}
+
+.title-the {
+  position: absolute;
+  right: 56vw;
+}
+
+.title-button {
+  position: absolute;
+  left: 56vw;
+}

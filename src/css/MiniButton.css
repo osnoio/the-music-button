@@ -1,0 +1,51 @@
+.MiniButton-container {
+  background-color: rgb(11, 0, 0);
+  border-radius: 50%;
+  width: 75px;
+  height: 67.5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  box-shadow: 4px 1.5px 4px 1.5px rgba(0, 0, 0, 0.24),
+    -2px 1.5px 2px 1.5px rgba(0, 0, 0, 0.24);
+
+  font-family: Avenir, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3),
+    0px -1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.MiniButton-grey-handle {
+  background-color: rgb(70, 70, 70);
+  border-radius: 50%;
+  width: 67.5px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.MiniButton {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(190, 0, 0, 1) 100%
+  );
+  width: 60px;
+  height: 52.5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 1px;
+}
+
+.MiniButton h3 {
+  font-size: 0.5em;
+  transform: scale(1.1, 1.75) rotateX(45deg);
+}
